@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Filteron</title>
+		<link href = "css/fonts.css" rel = "stylesheet" type="text/css">
+		<link href = "css/main.css" type="text/css" rel="stylesheet">
+	</head>
+
+	<body>
+		<div class="wrapper">
+			<h1>Filteron</h1>
+
+			<!--Controls for CSS filters via range input-->
+			<div class="sliders">
+				<form id="filters">
+          <p>
+						<label for="brightness">Brightness</label>
+						<input id="brightness" name="brightness" type="range" min=0 max=200 value=100>
+					</p>
+
+					<p>
+						<label for="grayscale">Grayscale</label>
+						<input id="grayscale" name="grayscale" type="range" min=0 max=100 value=0>
+					</p>
+
+					<p>
+						<label for="blur">Blur</label>
+						<input id="blur" name="blur" type="range" min=0 max=10 value=0>
+					</p>
+
+          <p>
+						<label for="saturate">Saturate</label>
+						<input id="saturate" name="saturate" type="range" min=0 max=500 value=100>
+					</p>
+
+					<p>
+						<label for="sepia">Sepia</label>
+						<input id="sepia" name="sepia" type="range" min=0 max=100 value=0>
+					</p>
+
+					<p>
+						<label for="ct">Contrast</label>
+						<input id="ct" name="ct" type="range" min=0 max=200 value=100>
+					</p>
+
+					<p>
+						<label for="huer">Hue Rotate</label>
+						<input id="huer" name="huer" type="range" min=0 max=360 value=0>
+					</p>
+
+					<p>
+						<label for="opacity">Opacity</label>
+						<input id="opacity" name="opacity" type="range" min=0 max=100 value=100>
+					</p>
+
+					<p>
+						<label for="invert">Invert</label>
+						<input id="invert" name="invert" type="range" min=0 max=100 value=0>
+					</p>
+
+					<input type="reset" form="filters" id="reset" value="Reset" />
+
+				</form>
+			</div>
+
+			<!--container where image will be loaded-->
+			<!--<div id="imageContainer" class="center">
+				<img src="image/WP_Loverman-2560x1440_00000.jpg"/>
+			</div>-->
+
+      <div id="imageContainer" class="center" onclick="$('#filteronImage').click()">
+          Click here or drag here your image for preview
+          <img src=""/>
+          <input type="file" name="filteronImage"  id="filteronImage" />
+      </div>
+		</div>
+
+		<script>window.$ = window.jQuery = require('./js/jquery.min.js');</script>
+		<script type="text/javascript" src="js/main.js"></script>
+
+	</body>
+</html>

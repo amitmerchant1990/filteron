@@ -1,0 +1,39 @@
+{
+  "name": "filteron",
+  "version": "1.0.0",
+  "description": "A minimalist image editor based on CSS filters",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amitmerchant1990/filteron.git"
+  },
+  "keywords": [
+    "Electron",
+    "image",
+    "editor",
+    "editing",
+    "filters",
+    "node",
+    "processing"
+  ],
+  "author": {
+    "email": "bullredeyes@gmail.com",
+    "name": "Amit Merchant",
+    "url": "http://www.amitmerchant.com"
+  },
+  "_npmUser": {
+    "email": "bullredeyes@gmail.com",
+    "name": "amit_merchant"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amitmerchant1990/filteron/issues"
+  },
+  "homepage": "https://github.com/amitmerchant1990/filteron#readme",
+  "devDependencies": {
+    "electron-prebuilt": "^0.36.0"
+  }
+}
