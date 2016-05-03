@@ -2,7 +2,7 @@
 
 > A minimalist image editor based on CSS filters
 
-This is a minimalist image editor based on CSS filters built upon [Electron](http://electron.atom.io).
+This is a minimalist image editor based on [CSS filters](https://developer.mozilla.org/en/docs/Web/CSS/filter) built upon [Electron](http://electron.atom.io).
 
 ## How To Use
 
