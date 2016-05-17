@@ -9,8 +9,6 @@
 
 	<body>
 		<div class="wrapper">
-			<h1>Filteron</h1>
-
 			<!--Controls for CSS filters via range input-->
 			<div class="sliders">
 				<form id="filters">
@@ -60,7 +58,7 @@
 					</p>
 
 					<input type="reset" form="filters" id="reset" value="Reset" />
-
+					<input id="saveImage" type="button" value="Save Image"/>
 				</form>
 			</div>
 
@@ -71,9 +69,12 @@
 
       <div id="imageContainer" class="center" onclick="$('#filteronImage').click()">
           Click here or drag here your image for preview
-          <img src=""/>
-          <input type="file" name="filteronImage"  id="filteronImage" />
+          <img src="" id="embedImage" style="width:100%;height:100%;"/>
+          <input type="file" name="filteronImage" id="filteronImage" />
       </div>
+			<div>
+
+			</div>
 		</div>
 
 		<script>window.$ = window.jQuery = require('./js/jquery.min.js');</script>

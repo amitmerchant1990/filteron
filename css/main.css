@@ -201,7 +201,27 @@ input[type=range]:hover {
     border: 2px solid #22A7F0;
 }
 
-.center {position:relative; overflow:hidden; width:300px; height:350px; background:#f3f3f3; border:2px dashed #e8e8e8;}
+#saveImage {
+	display: inline-block;
+	height: 2.5rem;
+	width: 95%;
+    background-color: #22A7F0;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    font-size: 1.5rem;
+    color: #fff;
+    margin: 0 10px 10px 0px;
+    border: 2px solid transparent;
+}
+
+#saveImage:hover {
+    color: #22A7F0;
+    background-color: #fff;
+    border: 2px solid #22A7F0;
+}
+
+.center {position:relative; overflow:hidden; width:300px; height:522px; background:#f3f3f3; border:2px dashed #e8e8e8;text-align: center;line-height: 530px;color: #9A9191;}
 
 #filteronImage{
     position:absolute;
