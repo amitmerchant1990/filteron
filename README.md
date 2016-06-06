@@ -15,7 +15,7 @@ $> npm install && npm start
 
 ## Credits
 
-Filteron is built using:
+Filteron is built using below open source packages:
 
 - [Electron](http://electron.atom.io/)
 - [Node.js](https://nodejs.org/)
