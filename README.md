@@ -13,7 +13,7 @@ $> cd PATH-TO-FILTERON
 $> npm install && npm start
 ```
 
-## Tools Used
+## Credits
 
 Filteron is built on:
 
