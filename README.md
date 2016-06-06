@@ -15,7 +15,7 @@ $> npm install && npm start
 
 ## Credits
 
-Filteron is built on:
+Filteron is built using:
 
 - [Electron](http://electron.atom.io/)
 - [Node.js](https://nodejs.org/)
